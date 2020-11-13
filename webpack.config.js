@@ -1,7 +1,11 @@
+const { resolve } = require("path");
 // Load the Vue plugin
 const VueLoaderPlugin = require("vue-loader/lib/plugin");
 
 module.exports = {
+    output: {
+        path: resolve(__dirname, "public", "build"),
+    },
     // All import of Vue will be redirected to "vue/dist/vue.esm.js"
     resolve: {
         alias: {
