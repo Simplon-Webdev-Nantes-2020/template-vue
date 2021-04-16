@@ -1,7 +1,7 @@
 // Import Vue
 import Vue from "vue";
 // Import my component
-import App from "./components/App.vue";
+import App from "./App.vue";
 
 // Import Vuetify
 import Vuetify from "vuetify";
